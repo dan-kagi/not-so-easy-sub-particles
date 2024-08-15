@@ -1,0 +1,195 @@
+body {
+  font-family: sans-serif;
+  background-color: green;
+  margin: 0px;
+}
+
+h2,
+h3 {
+  color: white;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+header > img {
+  width: 100px;
+}
+
+main {
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 5px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid grey;
+  border-radius: 20px;
+}
+
+table {
+  background-color: grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 30px;
+  text-align: center;
+  background-color: white;
+  font-weight: bold;
+}
+
+#table1 td > button {
+  font-weight: bold;
+  text-align: center;
+  background-color: blue;
+  width: 25px;
+  border: solid blue 2px;
+  border-radius: 10px;
+  color: white;
+}
+
+#table1 td > button:hover {
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(220, 38, 150);
+  width: 25px;
+  border: 2px solid rgb(220, 38, 150);
+  border-radius: 10px;
+  color: white;
+}
+
+#table2 th > button,
+#table3 th > button {
+  font-weight: bold;
+  text-align: center;
+  background-color: blue;
+  width: 60px;
+  border: solid blue 2px;
+  border-radius: 10px;
+  color: white;
+}
+
+#table2 th > button:hover,
+#table3 th > button:hover {
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(220, 38, 150);
+  width: 60px;
+  border: 2px solid rgb(220, 38, 150);
+  border-radius: 10px;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+p,
+label {
+  margin: 0px;
+  color: white;
+}
+
+.charge {
+  width: 13px;
+  height: 13px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.numberMass {
+  width: 15px;
+  height: 15px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+tr {
+  background-color: rgb(206, 198, 198);
+}
+
+sup {
+  margin: 2px;
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+#ex4 button,
+#ex5 button,
+#ex6 button,
+#ex7 button,
+#ex8 button,
+#table2 button,
+#table3 button {
+  width: 90px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+  font-weight: bold;
+}
+
+#ex4 button:hover,
+#ex5 button:hover,
+#ex6 button:hover,
+#ex7 button:hover,
+#ex8 button:hover,
+#table2 button:hover,
+#table3 button:hover {
+  width: 120px;
+  border-radius: 10px;
+  background-color: rgb(220, 38, 150);
+  color: white;
+  border: 2px solid rgb(220, 38, 150);
+  font-weight: bold;
+}
+
+.atomicNumber,
+.massNumber,
+.ionCharge {
+  margin: 5px;
+}
+
+.wrong {
+  background-color: red;
+}
+
+.correct {
+  background-color: blue;
+}
+
+@media (max-width: 1000px) {
+  .card {
+    width: 98%;
+  }
+  table {
+    font-size: 0.7rem;
+  }
+  .charge,
+  .numberMass {
+    font-size: 0.6rem;
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
